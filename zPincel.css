@@ -1,0 +1,152 @@
+body  {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+} /* Vai deixar tudo com a fonte arial e com margem*/
+
+
+
+ul.navigation {
+    width: auto;
+    height: 40px;
+    position: relative;
+    background-color: #005b6b;
+    padding: 0;
+    color: #000000;
+    list-style-type: none;
+    box-shadow: 0 3px #01ffd5;
+    margin: 2;
+    z-index: 1;
+  }
+  ul.navigation > li {
+    list-style-type: none;
+    margin: 0;
+  
+    width: 25%;
+    text-align: center;
+  
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+  }
+  ul.navigation > li:hover {
+    background-color: #00fff2;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+  }
+  ul.navigation > li {
+    color: #000000;
+  }
+  ul.navigation > li > a {
+    display: block;
+    max-height: 30px;
+    height: 40px !important;
+    padding: 10px 20px 0px 20px;
+  }
+  ul.navigation > li.left {
+    float: left;
+  }
+  ul.navigation > li.right {
+    float: right;
+  }
+  ul.navigation > li.center {
+    margin: 0 25%;
+  }
+/* Essa eh a parte do Css do menu, para deixal-lo mais bonito*/
+
+/* da qui para baixo eh as configuracoes das letras, fiz separadamente para caso quisesse deixar uma diferente da outra, eu poder*/
+
+
+  h1{
+    color: rgb(4, 95, 117);
+    font-size: 40pt;
+}
+p1{
+    font-size: 20pt;
+}
+l1{
+    font-size: 20pt;
+}
+
+h2{
+    color: rgb(4, 95, 117);
+    font-size: 30pt;
+}
+p2{
+    font-size: 20pt;
+}
+p3{
+    font-size: 20pt;
+}
+
+l2{
+    font-size: 20pt;
+}
+
+li{
+    font-size: 20pt;
+}
+l3{
+    font-size: 20pt;
+}
+
+h3{
+    color: rgb(4, 95, 117);
+    font-size: 30pt;
+}
+
+p4{
+    font-size: 20pt;
+}
+p7{
+  font-size: 20pt;
+}
+
+h5{
+  color: rgb(4, 95, 117);
+  font-size: 30pt;
+}
+
+p8{
+  font-size: 20pt;
+}
+
+h6{
+  color: rgb(4, 95, 117);
+  font-size: 30pt;
+}
+
+p9{
+  font-size: 20pt;
+  text-align:center
+}
+p10{
+  font-size: 20pt;
+}
+
+/* aqui eh a parte do css do contato, onde deixa ela mais visualmente bonito */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+button {
+    background-color: #087381;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #00bdec;
+}
